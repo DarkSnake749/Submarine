@@ -1,4 +1,5 @@
 import pygame
+
 pygame.init()
 
 class Window:   
@@ -51,13 +52,9 @@ class Window:
     
         return
 
-def test() -> Window:
-    return Window()
-
 def main() -> None:
     win: Window = Window()
     win.loop()
-    exit()
 
 if __name__ == '__main__':
     main()
